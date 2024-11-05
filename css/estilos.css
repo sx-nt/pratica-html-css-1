@@ -1,0 +1,32 @@
+@import url(normalize.css);
+@import url(header.css);
+@import url(principal.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --tittle-font: "Passion One";
+    --tittle-weight: 400;
+
+    --p-font: "Cormorant";
+    --p-weight: 600;
+
+    --bg-color: #f5f4f0;
+    --primary: #9bccbb;
+    --secondary: #2d2b31;
+    --bg-pattern-color: #ededed;
+
+}
+
+body {
+    background-color: var(--bg-pattern-color);
+    color: var(--secondary);
+    font-family: var(--p-font);
+    font-weight: var(--p-weight);
+    font-size: 20px;
+}
+
+h2, p {
+    margin: 0px;
+}

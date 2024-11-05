@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    padding: 30px;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    background-color: inherit;
+    box-shadow: 1px 1px 5px rgba(0,0,0, .1);
+}
+
+.header__titulo {
+    font-family: var(--tittle-font);
+    font-weight: var(--tittle-weight);
+    font-size: 3em;
+    margin: 0%
+}
+
+.header__texto {
+    font-family: var(--p-font);
+    font-weight: var(--p-weight);
+    margin: 0%
+}

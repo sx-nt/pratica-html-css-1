@@ -1,0 +1,33 @@
+.main {
+    padding: 0px 15%;
+}
+
+.principal {
+    margin-top: 180px;
+}
+
+.atracao {
+    display: flex;
+    gap: 50px;
+
+    margin: 50px 0px;
+}
+
+.atracao--impar {
+    flex-direction: row-reverse;
+}
+
+.atracao__imagem {
+    height: 300px;
+    width: auto;   
+    box-shadow: 2px 2px 4px rgba(50, 50, 50, .1);
+}
+
+.atracao__titulo {
+    font-family: var(--tittle-font);
+    font-weight: var(--tittle-weight);
+}
+
+.oferta {
+    text-align: center;
+}

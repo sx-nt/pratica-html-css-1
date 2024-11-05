@@ -1,0 +1,12 @@
+Titulo
+font-family: Passion One
+font-weight: 700
+
+Parágrafo
+font-family: Cormorant
+font-weight: 400
+
+cor de fundo: #f5f4f0 
+cor primária: #9bccbb
+cor secundária: #2d2b31
+cor de fundo do padrão: #ededed
