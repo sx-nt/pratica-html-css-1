@@ -19,6 +19,7 @@
     <main class="main">
         <section class="principal">
             <div class="atracao">
+                <div class="padrao esquerda-baixo"></div>
                 <img class="atracao__imagem" src="./img/cabin.jpg" alt="Cabanas">
                 <div>
                     <h2 class="atracao__titulo">Cabanas</h2>
@@ -26,6 +27,7 @@
                 </div>
             </div>
             <div class="atracao atracao--impar">
+                <div class="padrao direita-meio"></div>
                 <img class="atracao__imagem" src="./img/teepee.jpg" alt="Tipis">
                 <div>
                     <h2 class="atracao__titulo">Tipis</h2>
@@ -33,6 +35,7 @@
                 </div>
             </div>
             <div class="atracao">
+                <div class="padrao esquerda-cima"></div>
                 <img class="atracao__imagem" src="./img/fishing.jpg" alt="Pescaria">
                 <div>
                     <h2 class="atracao__titulo">Pescaria</h2>
@@ -40,6 +43,7 @@
                 </div>
             </div>
             <div class="atracao atracao--impar">
+                <div class="padrao direita-baixo"></div>
                 <img class="atracao__imagem" src="./img/archery.jpg" alt="Arco e Flecha">
                 <div>
                     <h2 class="atracao__titulo">Arco e Flecha</h2>
@@ -47,6 +51,7 @@
                 </div>
             </div>
             <div class="atracao">
+                <div class="padrao esquerda-meio"></div>
                 <img class="atracao__imagem" src="./img/canoeing.jpg" alt="Canoagem">
                 <div>
                     <h2 class="atracao__titulo">Canoagem</h2>
@@ -60,35 +65,46 @@
             <p class="oferta__texto">Máximo 40 pessoas</p>
         </section>
 
-        <section>
-            <h2>Entre em contato conosco</h2>
-            <p>Responderemos depois da pescaria.</p>
-            <form>
-                <label for="input-nome">Nome</label> 
-                <input type="text" id="input-nome">
+        <section class="contato">
+            <h2 class="contato__titulo">Entre em contato conosco</h2>
+            <p class="contato__texto">Responderemos depois da pescaria.</p>
+            <form class="contato__formulario">
+
+                <div class="nome-email">
+                    <div class="rotulo-entrada">
+                        <label for="input-nome">Nome</label> 
+                        <input type="text" id="input-nome" class="contato__entrada">
+                    </div>
+                    
+                    <div class="rotulo-entrada">
+                        <label for="input-email">Email</label> 
+                        <input type="text" id="input-email" class="contato__entrada">
+                    </div>
+                </div>
                 
-                <label for="input-emial">Email</label> 
-                <input type="text" id="input-emial">
+                <div class="rotulo-entrada">
+                    <label for="input-periodo">Período</label> 
+                    <input type="text" id="input-periodo" class="contato__entrada">
+                </div>
                 
-                <label for="input-periodo">Período</label> 
-                <input type="text" id="input-periodo">
+                <div class="rotulo-entrada">
+                    <label for="input-mensagem">Mensagem</label> 
+                    <textarea type="text" id="input-mensagem" class="contato__entrada"></textarea>
+                </div>
                 
-                <label for="input-mensagem">Menssagem</label> 
-                <input type="text" id="input-mensagem">
-                
-                <button type="submit">Enviar</button>
+                <button class="contato__botao" type="submit">Enviar</button>
             </form>
         </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Estrada do Chapéu,  4500, São José, SC</p>
         <p>Desenvolvido por Sofia</p>
-        <ul>
-            <li><a href=""><img src="./img/facebook.svg" alt=""></a></li>
-            <li><a href=""><img src="./img/twitter.svg" alt=""></a></li>
-            <li><a href=""><img src="./img/instagram.svg" alt=""></a></li>
+        <ul class="lista-logos">
+            <li class="logos-itens"><a href=""><img src="./img/facebook.svg" alt=""></a></li>
+            <li class="logos-itens"><a href=""><img src="./img/twitter.svg" alt=""></a></li>
+            <li class="logos-itens"><a href=""><img src="./img/instagram.svg" alt=""></a></li>
         </ul>
         <p>&#169;IFSCamping</p>
     </footer>

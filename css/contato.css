@@ -1,0 +1,58 @@
+.contato{
+    text-align: center;
+    background-color: var(--primary);
+    padding: 50px 0px;
+}
+
+.contato__titulo, .contato__texto {
+    margin-bottom: 10px;
+}
+
+.contato__formulario {
+    padding: 20px 15% 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contato__formulario label {
+    text-align: start;
+    margin-top: 20px;
+}
+
+.contato__entrada {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--secondary);
+    outline: none;
+}
+
+.nome-email {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.rotulo-entrada {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: stretch;
+}
+
+.contato__botao {
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    padding: 5px;
+    margin-top: 10px;
+    align-self: flex-end;
+
+}
+
+.contato__botao:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}

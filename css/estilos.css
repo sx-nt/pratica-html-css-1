@@ -1,6 +1,9 @@
 @import url(normalize.css);
 @import url(header.css);
 @import url(principal.css);
+@import url(padrao.css);
+@import url(contato.css);
+@import url(footer.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Passion+One:wght@400;700;900&display=swap');
@@ -20,7 +23,7 @@
 }
 
 body {
-    background-color: var(--bg-pattern-color);
+    background-color: var(--bg-color);
     color: var(--secondary);
     font-family: var(--p-font);
     font-weight: var(--p-weight);
