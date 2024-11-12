@@ -1,0 +1,26 @@
+@media screen and (max-width: 850px)  {
+    
+    .principal {
+        padding: 0px 5%;
+    }
+
+    .padrao {
+        display: none;
+        /* some com o padrão */
+    }
+
+    .atracao__imagem {
+        height: 250px;
+    }
+
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .nome-email {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+}
