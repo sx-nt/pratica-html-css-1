@@ -26,3 +26,12 @@
     font-size: .8em;
     margin: 5px 0;
 }
+
+.depoimentos__seta{
+    height: 50px;
+}
+
+.depoimentos__seta:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(110%);
+}
